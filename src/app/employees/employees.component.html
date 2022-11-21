@@ -7,7 +7,7 @@
     <div class="row">
       <div class="col-md-2">Designation Filter:</div>
       <div class="col-md-4">
-        <input type="text" />
+        <input type="text" [(ngModel)]="designationFilter" />
       </div>
     </div>
     <div class="row">
@@ -30,7 +30,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let employee of employees">
+          <tr *ngFor="let employee of filteredEmployees">
             <td class="em-icon">
               <img *ngIf="showIcon" [src]="'assets/img/icons/' + employee.icon" alt="icon" width="24" height="24" />
             </td>
