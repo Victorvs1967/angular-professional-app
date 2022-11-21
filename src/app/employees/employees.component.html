@@ -1,5 +1,6 @@
 <div class="card">
   <div class="card-header">{{ title }}</div>
+  <div class="card-header">{{ message }}</div>
 </div>
 <div class="card">
   <div class="card-header"><br></div>
@@ -38,7 +39,14 @@
             <td>{{ employee.lastName }}</td>
             <td>{{ employee.designation }}</td>
             <td>{{ employee.insuratioceBalances | currency }}</td>
-            <td>{{ employee.rbgProgress }}</td>
+            <!-- <td (progressClick)="onMessageRecived($event)">{{ employee.rbgProgress }}</td> -->
+            <td>
+              <vs-progress-bar
+                [firstName]="employee.firstName"
+                [progress]="employee.rbgProgress" 
+                (progressClick)="onMessageRecived($event)">
+              </vs-progress-bar>
+            </td>
           </tr>
         </tbody>
       </table>

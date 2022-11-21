@@ -9,12 +9,17 @@ import employees from './data/employees.json';
 })
 export class EmployeesComponent {
 
-  employees: Employee[] = employees;
   title: string = 'Employee Management Solutions - EMS';
+
+  employees: Employee[] = employees;
   showIcon: boolean = false;
 
-  private _designationFilter: string = '';
   message: string = '';
+  onMessageRecived(value: string) {
+    this.message = value;
+  }
+
+  private _designationFilter: string = '';
   filteredEmployees: Employee[] = employees;
 
   set designationFilter(value: string) {
