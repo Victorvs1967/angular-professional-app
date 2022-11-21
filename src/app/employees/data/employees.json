@@ -1,0 +1,58 @@
+[
+  {
+    "icon": "person-circle.svg",
+    "firstName": "Petronille",
+    "lastName": "Belin",
+    "designation": "VP Product Management",
+    "insuratioceBalances": 1050.43,
+    "rbgProgress": 81
+  },
+  {
+    "icon": "person-circle.svg",
+    "firstName": "Gabriellia",
+    "lastName": "Orwin",
+    "designation": "Professor",
+    "insuratioceBalances": 590.69,
+    "rbgProgress": 50
+  },
+  {
+    "icon": "person-circle.svg",
+    "firstName": "Sawyer",
+    "lastName": "Wicher",
+    "designation": "Registered Nurse",
+    "insuratioceBalances": 4345.03,
+    "rbgProgress": 46
+  },
+  {
+    "icon": "/person-circle.svg",
+    "firstName": "Yorker",
+    "lastName": "Gerhardt",
+    "designation": "Help Desk Technician",
+    "insuratioceBalances": 2289.12,
+    "rbgProgress": 86
+  },
+  {
+    "icon": "person-circle.svg",
+    "firstName": "Norene",
+    "lastName": "Pactat",
+    "designation": "Legal Assistent",
+    "insuratioceBalances": 3291.25,
+    "rbgProgress": 92
+  },
+  {
+    "icon": "person-circle.svg",
+    "firstName": "Laney",
+    "lastName": "Boot",
+    "designation": "General Manager",
+    "insuratioceBalances": 791.18,
+    "rbgProgress": 78
+  },
+  {
+    "icon": "person-circle.svg",
+    "firstName": "Alfie",
+    "lastName": "Hurworth",
+    "designation": "Staff Scientist",
+    "insuratioceBalances": 802.13,
+    "rbgProgress": 24
+  }
+]
